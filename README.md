@@ -12,12 +12,13 @@ Execute below command in your computer to install hostmanager plugin
 $ vagrant plugin install vagrant-hostmanager
 
 4. Git bash or equivalent editor
-VM SETUP
- 1. Clone source code.
- 2. Cd into the repository.
- 3. Switch to the main branch.
- 4. cd into vagrant/Manual_provisioning
- Bring up vm’s
+  
+  1. Clone source code.
+  2. Cd into the repository.
+  3. Switch to the main branch.
+  4. cd into vagrant/Manual_provisioning
+ 
+Bring up vm’s
 
  **$ vagrant up**
 
@@ -27,14 +28,15 @@ INFO: All the vm’s hostname and /etc/hosts file entries will be automatically 
 
 ![project-design](Images/Project-design.png)
 
-Services:
+**Services:**
+
 1. Nginx      : Loadbalancer
 2. Tomcat     : Java application Server
 3. Memcache   : DB Caching
 4. RabbitMQ   : Brocker/Queuing Agent
 5. MySQl      : SQL Database
 
-This project is divided into 2 sessions:
+**This project is divided into 2 sessions:**
 
 1. Manual deployment
 2. Automated deployment
