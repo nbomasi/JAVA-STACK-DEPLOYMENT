@@ -13,14 +13,14 @@ $ vagrant plugin install vagrant-hostmanager
 
 4. Git bash or equivalent editor
   
-  1. Clone source code.
-  2. Cd into the repository.
-  3. Switch to the main branch.
-  4. cd into vagrant/Manual_provisioning
+     * Clone source code.
+     * Cd into the repository.
+     * Switch to the main branch.
+     * cd into vagrant/Manual_provisioning
  
 Bring up vm’s
 
- **$ vagrant up**
+ ```$ vagrant up```
 
 NOTE: Bringing up all the vm’s may take a long time based on various factors.
 If vm setup stops in the middle run “vagrant up” command again.
